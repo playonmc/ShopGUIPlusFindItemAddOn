@@ -1,0 +1,244 @@
+pixels:
+    name: "&8Pixel Store"
+    size: 54
+    economy: PLAYER_POINTS
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+    buttons:
+        previousPage:
+            slot: 39
+        nextPage:
+            slot: 41
+    items:
+        minerals-category:
+            type: shop_link
+            shop: "minerals"
+            item:
+                material: EMERALD
+                quantity: 1
+                name: "#55A8F2Minerals"
+            slot: 0
+        blocks-category:
+            type: shop_link
+            shop: "blocks"
+            item:
+                material: DIORITE
+                quantity: 1
+                name: "#55A8F2Blocks"
+            slot: 1
+        farming-category:
+            type: shop_link
+            shop: "farming"
+            item:
+                material: WHEAT
+                quantity: 1
+                name: "#55A8F2Farming"
+            slot: 2
+        food-category:
+            type: shop_link
+            shop: "food"
+            item:
+                material: COOKIE
+                quantity: 1
+                name: "#55A8F2Food"
+            slot: 3
+        flowersandplants-category:
+            type: shop_link
+            shop: "flowersandplants"
+            item:
+                material: ROSE_BUSH
+                quantity: 1
+                name: "#55A8F2Flowers & plants"
+            slot: 4
+        spawners-category:
+            type: shop_link
+            shop: "spawners"
+            item:
+                material: SPAWNER
+                quantity: 1
+                name: "#55A8F2Spawners"
+                flags:
+                    - HIDE_POTION_EFFECTS
+            slot: 5
+        others-category:
+            type: shop_link
+            shop: "others"
+            item:
+                material: TRIDENT
+                quantity: 1
+                name: "#55A8F2Others"
+                flags:
+                    - HIDE_ATTRIBUTES
+            slot: 6
+        mobdrops-category:
+            type: shop_link
+            shop: "mobdrops"
+            item:
+                material: ROTTEN_FLESH
+                quantity: 1
+                name: "#55A8F2Mob drops"
+            slot: 7
+        Pixels-category:
+            type: shop_link
+            shop: "pixels"
+            item:
+                material: NETHER_STAR
+                quantity: 1
+                name: "#74fcc9Pixels"
+                enchantments:
+                    - SHARPNESS:4
+                flags:
+                    - HIDE_ENCHANTS
+            slot: 4
+        1:
+            type: command
+            item:
+                material: GRASS_BLOCK
+                quantity: 1
+                name: "&a1,000 Claim Blocks"
+            commands:
+                - "adjustclaimblocks %PLAYER% add 1000"
+            buyPrice: 500
+            sellPrice: -1
+            slot: 19
+            page: 1
+        2:
+            type: command
+            item:
+                material: GRASS_BLOCK
+                quantity: 1
+                name: "&a5,000 Claim Blocks"
+            commands:
+                - "adjustclaimblocks %PLAYER% add 5000"
+            buyPrice: 2000
+            sellPrice: -1
+            slot: 28
+            page: 1
+        3:
+            type: command
+            item:
+                material: GRASS_BLOCK
+                quantity: 1
+                name: "&a10,000 Claim Blocks"
+            commands:
+                - "adjustclaimblocks %PLAYER% add 10000"
+            buyPrice: 3500
+            sellPrice: -1
+            slot: 37
+            page: 1
+        6:
+            type: command
+            item:
+                material: ELYTRA
+                quantity: 1
+                name: "&b1 Hour Flight Time"
+            commands:
+                - "tempfly add %PLAYER% 3600"
+            buyPrice: 50
+            sellPrice: -1
+            slot: 20
+            page: 1
+        7:
+            type: command
+            item:
+                material: ELYTRA
+                quantity: 1
+                name: "&b6 Hour Flight Time"
+            commands:
+                - "tempfly add %PLAYER% 21600"
+            buyPrice: 300
+            sellPrice: -1
+            slot: 29
+            page: 1
+        8:
+            type: command
+            item:
+                material: ELYTRA
+                quantity: 1
+                name: "&b12 Hour Flight Time"
+            commands:
+                - "tempfly add %PLAYER% 43200"
+            buyPrice: 600
+            sellPrice: -1
+            slot: 38
+            page: 1
+
+        21:
+            type: command
+            item:
+                material: EMERALD
+                quantity: 1
+                name: "&f &7(15 Days)"
+            commands:
+                - "lp user %PLAYER% parent addtemp PLUS 15d accumulate"
+            buyPrice: 500
+            sellPrice: -1
+            slot: 23
+            page: 1
+
+        22:
+            type: command
+            item:
+                material: EMERALD
+                quantity: 2
+                name: "&f &7(30 Days)"
+            commands:
+                - "lp user %PLAYER% parent addtemp PLUS 30d accumulate"
+            buyPrice: 1000
+            sellPrice: -1
+            slot: 24
+            page: 1
+
+        23:
+            type: command
+            item:
+                material: EMERALD
+                quantity: 3
+                name: "&f &7(365 Days)"
+            commands:
+                - "lp user %PLAYER% parent addtemp PLUS 365d accumulate"
+            buyPrice: 9600
+            sellPrice: -1
+            slot: 25
+            page: 1
+        19:
+            type: permission
+            permissions:
+                - "tag.release"
+                - "tag.original"
+                - "tag.veteran"
+            item:
+                material: NAME_TAG
+                quantity: 1
+                name: "&x&F&F&6&C&2&0&lR&x&F&F&7&4&1&E&le&x&F&F&7&B&1&C&ll&x&F&F&8&3&1&A&le&x&F&F&8&A&1&7&la&x&F&F&9&2&1&5&ls&x&F&F&9&9&1&3&le &x&F&F&A&8&0&F&lT&x&F&F&B&0&0&D&la&x&F&F&B&7&0&B&lg &x&F&F&C&6&0&6&lP&x&F&F&C&E&0&4&la&x&F&F&D&5&0&2&lc&x&F&F&D&D&0&0&lk"
+                lore:
+                    - ""
+                    - "&aYou recieve:"
+                    - "&x&F&2&F&F&2&0[&x&D&4&F&9&3&Cʀ&x&B&6&F&4&5&8ᴇ&x&9&7&E&E&7&4ʟ&x&7&9&E&9&9&0ᴇ&x&5&B&E&3&A&Bᴀ&x&3&D&D&D&C&7s&x&1&E&D&8&E&3ᴇ&x&0&0&D&2&F&F]"
+                    - "&x&F&2&F&F&2&0[&x&F&2&F&F&2&0ᴏ&x&F&2&F&F&2&0ʀ&x&F&2&F&F&2&0ɪ&x&F&2&F&F&2&0ɢ&x&F&2&F&F&2&0ɪ&x&F&2&F&F&2&0ɴ&x&F&2&F&F&2&0ᴀ&x&F&2&F&F&2&0ʟ&x&F&2&F&F&2&0]"
+                    - "&x&F&F&6&C&2&0[&x&F&F&6&C&2&0ᴠ&x&F&F&6&C&2&0ᴇ&x&F&F&6&C&2&0ᴛ&x&F&F&6&C&2&0ᴇ&x&F&F&6&C&2&0ʀ&x&F&F&6&C&2&0ᴀ&x&F&F&6&C&2&0ɴ&x&F&F&6&C&2&0]"
+            buyPrice: 300
+            sellPrice: -1
+            slot: 42
+            page: 1
+        20:
+            type: permission
+            permissions:
+                - "tag.creeper"
+                - "tag.enderman"
+                - "tag.blaze"
+            item:
+                material: NAME_TAG
+                quantity: 1
+                name: "&x&E&C&F&F&2&0&lM&x&E&3&F&F&2&1&lo&x&D&A&F&F&2&3&lb &x&C&9&F&F&2&5&lT&x&C&0&F&F&2&6&la&x&B&7&F&F&2&8&lg &x&A&5&F&F&2&A&lP&x&9&D&F&F&2&B&la&x&9&4&F&F&2&D&lc&x&8&B&F&F&2&E&lk"
+                lore:
+                    - ""
+                    - "&aYou recieve:"
+                    - "&x&2&5&F&F&2&0[&x&2&9&F&4&1&Fᴄ&x&2&E&E&A&1&Eʀ&x&3&2&D&F&1&Dᴇ&x&3&7&D&5&1&Dᴇ&x&3&B&C&A&1&Cᴘ&x&3&F&B&F&1&Bᴇ&x&4&4&B&5&1&Aʀ&x&4&8&A&A&1&9]"
+                    - "&x&E&8&2&0&F&F[&x&D&B&2&1&F&7ᴇ&x&C&F&2&3&F&0ɴ&x&C&2&2&4&E&8ᴅ&x&B&5&2&5&E&1ᴇ&x&A&9&2&7&D&9ʀ&x&9&C&2&8&D&2ᴍ&x&8&F&2&9&C&Aᴀ&x&8&3&2&B&C&3ɴ&x&7&6&2&C&B&B]"
+                    - "&x&F&F&6&C&2&0[&x&F&F&7&F&1&Bʙ&x&F&F&9&2&1&5ʟ&x&F&F&A&5&1&0ᴀ&x&F&F&B&7&0&Bᴢ&x&F&F&C&A&0&5ᴇ&x&F&F&D&D&0&0]"
+            buyPrice: 300
+            sellPrice: -1
+            slot: 43
+            page: 1

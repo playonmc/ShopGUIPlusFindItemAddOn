@@ -1,0 +1,13 @@
+name: FindShopItem
+version: '1.0-SNAPSHOT'
+main: mc.play.findshopitem.FindShopItem
+api-version: '1.21'
+depend:
+  - ShopGUIPlus
+  - Essentials
+commands:
+  buyitem:
+    description: Opens the BUY GUI for a specific item
+    usage: /buyitem <block>
+    permission: findshopitem.buyitem
+    permission-message: You don't have permission to use this command!

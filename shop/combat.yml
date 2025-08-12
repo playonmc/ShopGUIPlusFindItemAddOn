@@ -1,0 +1,1413 @@
+combat:
+    name: "Combat (page %page%)"
+    size: 54
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+    items:
+        0:
+            type: item
+            item:
+                material: STONE_SWORD
+                quantity: 1
+            slot: 19
+            buyPrice: 25
+            sellPrice: -1
+            page: 1
+        1:
+            type: item
+            item:
+                material: IRON_SWORD
+                quantity: 1
+            buyPrice: 62
+            sellPrice: -1
+            page: 1
+            slot: 20
+        2:
+            type: item
+            item:
+                material: GOLDEN_SWORD
+                quantity: 1
+            buyPrice: 82
+            sellPrice: -1
+            page: 1
+            slot: 21
+        3:
+            type: item
+            item:
+                material: DIAMOND_SWORD
+                quantity: 1
+            buyPrice: 202
+            sellPrice: -1
+            page: 1
+            slot: 22
+        4:
+            type: item
+            item:
+                material: NETHERITE_SWORD
+                quantity: 1
+            buyPrice: 4000
+            sellPrice: -1
+            page: 1
+            slot: 23
+        5:
+            type: item
+            item:
+                material: STONE_AXE
+                quantity: 1
+            buyPrice: 30
+            sellPrice: -1
+            page: 1
+            slot: 24
+        6:
+            type: item
+            item:
+                material: IRON_AXE
+                quantity: 1
+            buyPrice: 92
+            sellPrice: -1
+            page: 1
+            slot: 25
+        7:
+            type: item
+            item:
+                material: GOLDEN_AXE
+                quantity: 1
+            buyPrice: 122
+            sellPrice: -1
+            page: 1
+            slot: 28
+        8:
+            type: item
+            item:
+                material: DIAMOND_AXE
+                quantity: 1
+            buyPrice: 302
+            sellPrice: -1
+            page: 1
+            slot: 29
+        9:
+            type: item
+            item:
+                material: NETHERITE_AXE
+                quantity: 1
+            buyPrice: 4200
+            sellPrice: -1
+            page: 1
+            slot: 30
+        10:
+            type: item
+            item:
+                material: TRIDENT
+                quantity: 1
+            buyPrice: 750
+            sellPrice: -1
+            page: 1
+            slot: 31
+        11:
+            type: item
+            item:
+                material: MACE
+                quantity: 1
+            buyPrice: 12000
+            sellPrice: -1
+            page: 1
+            slot: 32
+        12:
+            type: item
+            item:
+                material: SHIELD
+                quantity: 1
+            buyPrice: 60
+            sellPrice: -1
+            page: 1
+            slot: 33
+        13:
+            type: item
+            item:
+                material: CHAINMAIL_HELMET
+                quantity: 1
+            buyPrice: 50
+            sellPrice: -1
+            page: 1
+            slot: 34
+        14:
+            type: item
+            item:
+                material: IRON_HELMET
+                quantity: 1
+            buyPrice: 150
+            sellPrice: -1
+            page: 1
+            slot: 37
+        15:
+            type: item
+            item:
+                material: GOLDEN_HELMET
+                quantity: 1
+            buyPrice: 200
+            sellPrice: -1
+            page: 1
+            slot: 38
+        16:
+            type: item
+            item:
+                material: DIAMOND_HELMET
+                quantity: 1
+            buyPrice: 500
+            sellPrice: -1
+            page: 1
+            slot: 39
+        17:
+            type: item
+            item:
+                material: NETHERITE_HELMET
+                quantity: 1
+            buyPrice: 4500
+            sellPrice: -1
+            page: 1
+            slot: 40
+        18:
+            type: item
+            item:
+                material: TURTLE_HELMET
+                quantity: 1
+            buyPrice: 100
+            sellPrice: -1
+            page: 1
+            slot: 41
+        19:
+            type: item
+            item:
+                material: CHAINMAIL_CHESTPLATE
+                quantity: 1
+            buyPrice: 70
+            sellPrice: -1
+            page: 1
+            slot: 42
+        20:
+            type: item
+            item:
+                material: IRON_CHESTPLATE
+                quantity: 1
+            buyPrice: 240
+            sellPrice: -1
+            page: 1
+            slot: 43
+        21:
+            type: item
+            item:
+                material: GOLDEN_CHESTPLATE
+                quantity: 1
+            buyPrice: 320
+            sellPrice: -1
+            page: 2
+            slot: 19
+        22:
+            type: item
+            item:
+                material: DIAMOND_CHESTPLATE
+                quantity: 1
+            buyPrice: 800
+            sellPrice: -1
+            page: 2
+            slot: 20
+        23:
+            type: item
+            item:
+                material: NETHERITE_CHESTPLATE
+                quantity: 1
+            buyPrice: 5000
+            sellPrice: -1
+            page: 2
+            slot: 21
+        24:
+            type: item
+            item:
+                material: CHAINMAIL_LEGGINGS
+                quantity: 1
+            buyPrice: 60
+            sellPrice: -1
+            page: 2
+            slot: 22
+        25:
+            type: item
+            item:
+                material: IRON_LEGGINGS
+                quantity: 1
+            buyPrice: 210
+            sellPrice: -1
+            page: 2
+            slot: 23
+        26:
+            type: item
+            item:
+                material: GOLDEN_LEGGINGS
+                quantity: 1
+            buyPrice: 280
+            sellPrice: -1
+            page: 2
+            slot: 24
+        27:
+            type: item
+            item:
+                material: DIAMOND_LEGGINGS
+                quantity: 1
+            buyPrice: 700
+            sellPrice: -1
+            page: 2
+            slot: 25
+        28:
+            type: item
+            item:
+                material: NETHERITE_LEGGINGS
+                quantity: 1
+            buyPrice: 4800
+            sellPrice: -1
+            page: 2
+            slot: 28
+        29:
+            type: item
+            item:
+                material: CHAINMAIL_BOOTS
+                quantity: 1
+            buyPrice: 40
+            sellPrice: -1
+            page: 2
+            slot: 29
+        30:
+            type: item
+            item:
+                material: IRON_BOOTS
+                quantity: 1
+            buyPrice: 120
+            sellPrice: -1
+            page: 2
+            slot: 30
+        31:
+            type: item
+            item:
+                material: GOLDEN_BOOTS
+                quantity: 1
+            buyPrice: 160
+            sellPrice: -1
+            page: 2
+            slot: 31
+        32:
+            type: item
+            item:
+                material: DIAMOND_BOOTS
+                quantity: 1
+            buyPrice: 400
+            sellPrice: -1
+            page: 2
+            slot: 32
+        33:
+            type: item
+            item:
+                material: NETHERITE_BOOTS
+                quantity: 1
+            buyPrice: 4300
+            sellPrice: -1
+            page: 2
+            slot: 33
+        34:
+            type: item
+            item:
+                material: LEATHER_HORSE_ARMOR
+                quantity: 1
+            buyPrice: 40
+            sellPrice: -1
+            page: 2
+            slot: 34
+        35:
+            type: item
+            item:
+                material: IRON_HORSE_ARMOR
+                quantity: 1
+            buyPrice: 60
+            sellPrice: -1
+            page: 2
+            slot: 37
+        36:
+            type: item
+            item:
+                material: GOLDEN_HORSE_ARMOR
+                quantity: 1
+            buyPrice: 80
+            sellPrice: -1
+            page: 2
+            slot: 38
+        37:
+            type: item
+            item:
+                material: DIAMOND_HORSE_ARMOR
+                quantity: 1
+            buyPrice: 100
+            sellPrice: -1
+            page: 2
+            slot: 39
+        38:
+            type: item
+            item:
+                material: WOLF_ARMOR
+                quantity: 1
+            buyPrice: 50
+            sellPrice: -1
+            page: 2
+            slot: 40
+        39:
+            type: item
+            item:
+                material: TOTEM_OF_UNDYING
+                quantity: 1
+            buyPrice: 300
+            sellPrice: -1
+            page: 2
+            slot: 41
+        40:
+            type: item
+            item:
+                material: TNT
+                quantity: 1
+            buyPrice: 20
+            sellPrice: -1
+            page: 2
+            slot: 42
+        41:
+            type: item
+            item:
+                material: SNOWBALL
+                quantity: 1
+            buyPrice: 2
+            sellPrice: -1
+            page: 2
+            slot: 43
+        42:
+            type: item
+            item:
+                material: EGG
+                quantity: 1
+            buyPrice: 3
+            sellPrice: -1
+            page: 3
+            slot: 19
+        43:
+            type: item
+            item:
+                material: BROWN_EGG
+                quantity: 1
+            buyPrice: 4
+            sellPrice: -1
+            page: 3
+            slot: 20
+        44:
+            type: item
+            item:
+                material: BLUE_EGG
+                quantity: 1
+            buyPrice: 5
+            sellPrice: -1
+            page: 3
+            slot: 21
+        45:
+            type: item
+            item:
+                material: WIND_CHARGE
+                quantity: 1
+            buyPrice: 30
+            sellPrice: -1
+            page: 3
+            slot: 22
+        46:
+            type: item
+            item:
+                material: BOW
+                quantity: 1
+            buyPrice: 25
+            sellPrice: -1
+            page: 3
+            slot: 23
+        47:
+            type: item
+            item:
+                material: CROSSBOW
+                quantity: 1
+            buyPrice: 35
+            sellPrice: -1
+            page: 3
+            slot: 24
+        48:
+            type: item
+            item:
+                material: FIREWORK_ROCKET
+                quantity: 1
+                fireworkPower: 1
+            buyPrice: 10
+            sellPrice: -1
+            page: 3
+            slot: 25
+        49:
+            type: item
+            item:
+                material: FIREWORK_ROCKET
+                quantity: 1
+                fireworkPower: 2
+            buyPrice: 13
+            sellPrice: -1
+            page: 3
+            slot: 28
+        50:
+            type: item
+            item:
+                material: FIREWORK_ROCKET
+                quantity: 1
+                fireworkPower: 3
+            buyPrice: 16
+            sellPrice: -1
+            page: 3
+            slot: 29
+        51:
+            type: item
+            item:
+                material: ARROW
+                quantity: 1
+            buyPrice: 2
+            sellPrice: -1
+            page: 3
+            slot: 30
+        52:
+            type: item
+            item:
+                material: SPECTRAL_ARROW
+                quantity: 1
+            buyPrice: 5
+            sellPrice: -1
+            page: 3
+            slot: 31
+        53:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: NIGHT_VISION
+            buyPrice: 40
+            sellPrice: -1
+            page: 3
+            slot: 32
+        54:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_NIGHT_VISION
+            buyPrice: 50
+            sellPrice: -1
+            page: 3
+            slot: 33
+        55:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: INVISIBILITY
+            buyPrice: 40
+            sellPrice: -1
+            page: 3
+            slot: 34
+        56:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_INVISIBILITY
+            buyPrice: 50
+            sellPrice: -1
+            page: 3
+            slot: 37
+        57:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LEAPING
+            buyPrice: 44
+            sellPrice: -1
+            page: 3
+            slot: 38
+        58:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_LEAPING
+            buyPrice: 56
+            sellPrice: -1
+            page: 3
+            slot: 39
+        59:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: FIRE_RESISTANCE
+            buyPrice: 56
+            sellPrice: -1
+            page: 3
+            slot: 40
+        60:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_FIRE_RESISTANCE
+            buyPrice: 64
+            sellPrice: -1
+            page: 3
+            slot: 41
+        61:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: SWIFTNESS
+            buyPrice: 40
+            sellPrice: -1
+            page: 3
+            slot: 42
+        62:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_SWIFTNESS
+            buyPrice: 50
+            sellPrice: -1
+            page: 3
+            slot: 43
+        63:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: SLOWNESS
+            buyPrice: 40
+            sellPrice: -1
+            page: 4
+            slot: 19
+        64:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_SLOWNESS
+            buyPrice: 50
+            sellPrice: -1
+            page: 4
+            slot: 20
+        65:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: TURTLE_MASTER
+            buyPrice: 60
+            sellPrice: -1
+            page: 4
+            slot: 21
+        66:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_TURTLE_MASTER
+            buyPrice: 70
+            sellPrice: -1
+            page: 4
+            slot: 22
+        67:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: STRONG_TURTLE_MASTER
+            buyPrice: 80
+            sellPrice: -1
+            page: 4
+            slot: 23
+        68:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: WATER_BREATHING
+            buyPrice: 50
+            sellPrice: -1
+            page: 4
+            slot: 24
+        69:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_WATER_BREATHING
+            buyPrice: 56
+            sellPrice: -1
+            page: 4
+            slot: 25
+        70:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: HEALING
+            buyPrice: 60
+            sellPrice: -1
+            page: 4
+            slot: 28
+        71:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: STRONG_HEALING
+            buyPrice: 70
+            sellPrice: -1
+            page: 4
+            slot: 29
+        72:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: HARMING
+            buyPrice: 56
+            sellPrice: -1
+            page: 4
+            slot: 30
+        73:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: STRONG_HARMING
+            buyPrice: 64
+            sellPrice: -1
+            page: 4
+            slot: 31
+        74:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: POISON
+            buyPrice: 56
+            sellPrice: -1
+            page: 4
+            slot: 32
+        75:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: STRONG_POISON
+            buyPrice: 64
+            sellPrice: -1
+            page: 4
+            slot: 33
+        76:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: REGENERATION
+            buyPrice: 60
+            sellPrice: -1
+            page: 4
+            slot: 34
+        77:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: STRONG_REGENERATION
+            buyPrice: 70
+            sellPrice: -1
+            page: 4
+            slot: 37
+        78:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: STRENGTH
+            buyPrice: 70
+            sellPrice: -1
+            page: 4
+            slot: 38
+        79:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: STRONG_STRENGTH
+            buyPrice: 80
+            sellPrice: -1
+            page: 4
+            slot: 39
+        80:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: WEAKNESS
+            buyPrice: 40
+            sellPrice: -1
+            page: 4
+            slot: 40
+        81:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_WEAKNESS
+            buyPrice: 50
+            sellPrice: -1
+            page: 4
+            slot: 41
+        82:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LUCK
+            buyPrice: 40
+            sellPrice: -1
+            page: 4
+            slot: 42
+        83:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: SLOW_FALLING
+            buyPrice: 50
+            sellPrice: -1
+            page: 4
+            slot: 43
+        84:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: LONG_SLOW_FALLING
+            buyPrice: 56
+            sellPrice: -1
+            page: 5
+            slot: 19
+        85:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: WIND_CHARGED
+            buyPrice: 80
+            sellPrice: -1
+            page: 5
+            slot: 20
+        86:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: WEAVING
+            buyPrice: 70
+            sellPrice: -1
+            page: 5
+            slot: 21
+        87:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: OOZING
+            buyPrice: 80
+            sellPrice: -1
+            page: 5
+            slot: 22
+        88:
+            type: item
+            item:
+                material: TIPPED_ARROW
+                quantity: 1
+                potion:
+                    type: INFESTED
+            buyPrice: 90
+            sellPrice: -1
+            page: 5
+            slot: 23
+
+        ##BREAK
+
+        1000:
+            type: special
+            special: balance
+            page: 1
+            slot: 45
+        1001:
+            type: special
+            special: balance
+            page: 2
+            slot: 45
+        1002:
+            type: special
+            special: balance
+            page: 3
+            slot: 45
+        1003:
+            type: special
+            special: balance
+            page: 4
+            slot: 45
+        1004:
+            type: special
+            special: balance
+            page: 5
+            slot: 45
+
+        ##BREAK
+
+        10000:
+            type: shop_link
+            link:
+                shop: "tools-utilities"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#FF6F61◀ &7Previous"
+            page: 1
+            slot: 0
+        10001:
+            type: dummy
+            item:
+                material: OAK_SIGN
+                quantity: 1
+                name: "#FFBF00ғᴜɴᴄᴛɪᴏɴᴀʟ ʙʟᴏᴄᴋs ✨"
+                lore:
+                    - "&8| &7Blocks with special functions"
+                    - "&8| &7Enhance your builds with functionality"
+            page: 1
+            slot: 1
+        10002:
+            type: dummy
+            item:
+                material: REDSTONE
+                quantity: 1
+                name: "#D74F4Fʀᴇᴅsᴛᴏɴᴇ ʙʟᴏᴄᴋs ⚡"
+                lore:
+                    - "&8| &7Power your machines with redstone"
+                    - "&8| &7Create complex contraptions and circuits"
+            page: 1
+            slot: 2
+        10003:
+            type: dummy
+            item:
+                material: DIAMOND_PICKAXE
+                quantity: 1
+                name: "#76D7EEᴛᴏᴏʟs & ᴜᴛɪʟɪᴛɪᴇs 🛠"
+                lore:
+                    - "&8| &7Essential tools for mining and crafting"
+                    - "&8| &7Upgrade your gear for better efficiency"
+            page: 1
+            slot: 3
+        10004:
+            type: dummy
+            item:
+                material: NETHERITE_SWORD
+                quantity: 1
+                name: "#9B59B6ᴄᴏᴍʙᴀᴛ 🪓"
+                lore:
+                    - "&8| &7Gear up for intense battles"
+                    - "&8| &7Fight with powerful weapons"
+                enchantments:
+                    - MENDING:1
+            page: 1
+            slot: 4
+        10005:
+            type: dummy
+            item:
+                material: GOLDEN_APPLE
+                quantity: 1
+                name: "#FF6F61ғᴏᴏᴅ & ᴅʀɪɴᴋs 🍏"
+                lore:
+                    - "&8| &7Restore your health and hunger"
+                    - "&8| &7Enjoy delicious treats"
+            page: 1
+            slot: 5
+        10006:
+            type: dummy
+            item:
+                material: IRON_INGOT
+                quantity: 1
+                name: "#6A5ACDɪɴɢʀᴇᴅɪᴇɴᴛs 🍴"
+                lore:
+                    - "&8| &7Raw materials for crafting"
+                    - "&8| &7Essential for making tools and items"
+            page: 1
+            slot: 6
+        10007:
+            type: dummy
+            item:
+                material: SPAWNER
+                quantity: 1
+                name: "#A7F436sᴘᴀᴡɴᴇʀ 🐕"
+                lore:
+                    - "&8| &7Spawn and control mobs"
+                    - "&8| &7Ideal for farming and combat"
+            page: 1
+            slot: 7
+        10008:
+            type: shop_link
+            link:
+                shop: "food-drinks"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#7EC674▶ &7Next"
+            page: 1
+            slot: 8
+        #####
+        10009:
+            type: shop_link
+            link:
+                shop: "tools-utilities"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#FF6F61◀ &7Previous"
+            page: 2
+            slot: 0
+        10010:
+            type: dummy
+            item:
+                material: OAK_SIGN
+                quantity: 1
+                name: "#FFBF00ғᴜɴᴄᴛɪᴏɴᴀʟ ʙʟᴏᴄᴋs ✨"
+                lore:
+                    - "&8| &7Blocks with special functions"
+                    - "&8| &7Enhance your builds with functionality"
+            page: 2
+            slot: 1
+        10011:
+            type: dummy
+            item:
+                material: REDSTONE
+                quantity: 1
+                name: "#D74F4Fʀᴇᴅsᴛᴏɴᴇ ʙʟᴏᴄᴋs ⚡"
+                lore:
+                    - "&8| &7Power your machines with redstone"
+                    - "&8| &7Create complex contraptions and circuits"
+            page: 2
+            slot: 2
+        10012:
+            type: dummy
+            item:
+                material: DIAMOND_PICKAXE
+                quantity: 1
+                name: "#76D7EEᴛᴏᴏʟs & ᴜᴛɪʟɪᴛɪᴇs 🛠"
+                lore:
+                    - "&8| &7Essential tools for mining and crafting"
+                    - "&8| &7Upgrade your gear for better efficiency"
+            page: 2
+            slot: 3
+        10013:
+            type: dummy
+            item:
+                material: NETHERITE_SWORD
+                quantity: 1
+                name: "#9B59B6ᴄᴏᴍʙᴀᴛ 🪓"
+                lore:
+                    - "&8| &7Gear up for intense battles"
+                    - "&8| &7Fight with powerful weapons"
+                enchantments:
+                    - MENDING:1
+            page: 2
+            slot: 4
+        10014:
+            type: dummy
+            item:
+                material: GOLDEN_APPLE
+                quantity: 1
+                name: "#FF6F61ғᴏᴏᴅ & ᴅʀɪɴᴋs 🍏"
+                lore:
+                    - "&8| &7Restore your health and hunger"
+                    - "&8| &7Enjoy delicious treats"
+            page: 2
+            slot: 5
+        10015:
+            type: dummy
+            item:
+                material: IRON_INGOT
+                quantity: 1
+                name: "#6A5ACDɪɴɢʀᴇᴅɪᴇɴᴛs 🍴"
+                lore:
+                    - "&8| &7Raw materials for crafting"
+                    - "&8| &7Essential for making tools and items"
+            page: 2
+            slot: 6
+        10016:
+            type: dummy
+            item:
+                material: SPAWNER
+                quantity: 1
+                name: "#A7F436sᴘᴀᴡɴᴇʀ 🐕"
+                lore:
+                    - "&8| &7Spawn and control mobs"
+                    - "&8| &7Ideal for farming and combat"
+            page: 2
+            slot: 7
+        10017:
+            type: shop_link
+            link:
+                shop: "food-drinks"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#7EC674▶ &7Next"
+            page: 2
+            slot: 8
+        #####
+        10018:
+            type: shop_link
+            link:
+                shop: "tools-utilities"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#FF6F61◀ &7Previous"
+            page: 3
+            slot: 0
+        10019:
+            type: dummy
+            item:
+                material: OAK_SIGN
+                quantity: 1
+                name: "#FFBF00ғᴜɴᴄᴛɪᴏɴᴀʟ ʙʟᴏᴄᴋs ✨"
+                lore:
+                    - "&8| &7Blocks with special functions"
+                    - "&8| &7Enhance your builds with functionality"
+            page: 3
+            slot: 1
+        10020:
+            type: dummy
+            item:
+                material: REDSTONE
+                quantity: 1
+                name: "#D74F4Fʀᴇᴅsᴛᴏɴᴇ ʙʟᴏᴄᴋs ⚡"
+                lore:
+                    - "&8| &7Power your machines with redstone"
+                    - "&8| &7Create complex contraptions and circuits"
+            page: 3
+            slot: 2
+        10021:
+            type: dummy
+            item:
+                material: DIAMOND_PICKAXE
+                quantity: 1
+                name: "#76D7EEᴛᴏᴏʟs & ᴜᴛɪʟɪᴛɪᴇs 🛠"
+                lore:
+                    - "&8| &7Essential tools for mining and crafting"
+                    - "&8| &7Upgrade your gear for better efficiency"
+            page: 3
+            slot: 3
+        10022:
+            type: dummy
+            item:
+                material: NETHERITE_SWORD
+                quantity: 1
+                name: "#9B59B6ᴄᴏᴍʙᴀᴛ 🪓"
+                lore:
+                    - "&8| &7Gear up for intense battles"
+                    - "&8| &7Fight with powerful weapons"
+                enchantments:
+                    - MENDING:1
+            page: 3
+            slot: 4
+        10023:
+            type: dummy
+            item:
+                material: GOLDEN_APPLE
+                quantity: 1
+                name: "#FF6F61ғᴏᴏᴅ & ᴅʀɪɴᴋs 🍏"
+                lore:
+                    - "&8| &7Restore your health and hunger"
+                    - "&8| &7Enjoy delicious treats"
+            page: 3
+            slot: 5
+        10024:
+            type: dummy
+            item:
+                material: IRON_INGOT
+                quantity: 1
+                name: "#6A5ACDɪɴɢʀᴇᴅɪᴇɴᴛs 🍴"
+                lore:
+                    - "&8| &7Raw materials for crafting"
+                    - "&8| &7Essential for making tools and items"
+            page: 3
+            slot: 6
+        10025:
+            type: dummy
+            item:
+                material: SPAWNER
+                quantity: 1
+                name: "#A7F436sᴘᴀᴡɴᴇʀ 🐕"
+                lore:
+                    - "&8| &7Spawn and control mobs"
+                    - "&8| &7Ideal for farming and combat"
+            page: 3
+            slot: 7
+        10026:
+            type: shop_link
+            link:
+                shop: "food-drinks"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#7EC674▶ &7Next"
+            page: 3
+            slot: 8
+        #####
+        10027:
+            type: shop_link
+            link:
+                shop: "tools-utilities"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#FF6F61◀ &7Previous"
+            page: 4
+            slot: 0
+        10028:
+            type: dummy
+            item:
+                material: OAK_SIGN
+                quantity: 1
+                name: "#FFBF00ғᴜɴᴄᴛɪᴏɴᴀʟ ʙʟᴏᴄᴋs ✨"
+                lore:
+                    - "&8| &7Blocks with special functions"
+                    - "&8| &7Enhance your builds with functionality"
+            page: 4
+            slot: 1
+        10029:
+            type: dummy
+            item:
+                material: REDSTONE
+                quantity: 1
+                name: "#D74F4Fʀᴇᴅsᴛᴏɴᴇ ʙʟᴏᴄᴋs ⚡"
+                lore:
+                    - "&8| &7Power your machines with redstone"
+                    - "&8| &7Create complex contraptions and circuits"
+            page: 4
+            slot: 2
+        10030:
+            type: dummy
+            item:
+                material: DIAMOND_PICKAXE
+                quantity: 1
+                name: "#76D7EEᴛᴏᴏʟs & ᴜᴛɪʟɪᴛɪᴇs 🛠"
+                lore:
+                    - "&8| &7Essential tools for mining and crafting"
+                    - "&8| &7Upgrade your gear for better efficiency"
+            page: 4
+            slot: 3
+        10031:
+            type: dummy
+            item:
+                material: NETHERITE_SWORD
+                quantity: 1
+                name: "#9B59B6ᴄᴏᴍʙᴀᴛ 🪓"
+                lore:
+                    - "&8| &7Gear up for intense battles"
+                    - "&8| &7Fight with powerful weapons"
+                enchantments:
+                    - MENDING:1
+            page: 4
+            slot: 4
+        10032:
+            type: dummy
+            item:
+                material: GOLDEN_APPLE
+                quantity: 1
+                name: "#FF6F61ғᴏᴏᴅ & ᴅʀɪɴᴋs 🍏"
+                lore:
+                    - "&8| &7Restore your health and hunger"
+                    - "&8| &7Enjoy delicious treats"
+            page: 4
+            slot: 5
+        10033:
+            type: dummy
+            item:
+                material: IRON_INGOT
+                quantity: 1
+                name: "#6A5ACDɪɴɢʀᴇᴅɪᴇɴᴛs 🍴"
+                lore:
+                    - "&8| &7Raw materials for crafting"
+                    - "&8| &7Essential for making tools and items"
+            page: 4
+            slot: 6
+        10034:
+            type: dummy
+            item:
+                material: SPAWNER
+                quantity: 1
+                name: "#A7F436sᴘᴀᴡɴᴇʀ 🐕"
+                lore:
+                    - "&8| &7Spawn and control mobs"
+                    - "&8| &7Ideal for farming and combat"
+            page: 4
+            slot: 7
+        10035:
+            type: shop_link
+            link:
+                shop: "food-drinks"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#7EC674▶ &7Next"
+            page: 4
+            slot: 8
+        #####
+        10036:
+            type: shop_link
+            link:
+                shop: "tools-utilities"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#FF6F61◀ &7Previous"
+            page: 5
+            slot: 0
+        10037:
+            type: dummy
+            item:
+                material: OAK_SIGN
+                quantity: 1
+                name: "#FFBF00ғᴜɴᴄᴛɪᴏɴᴀʟ ʙʟᴏᴄᴋs ✨"
+                lore:
+                    - "&8| &7Blocks with special functions"
+                    - "&8| &7Enhance your builds with functionality"
+            page: 5
+            slot: 1
+        10038:
+            type: dummy
+            item:
+                material: REDSTONE
+                quantity: 1
+                name: "#D74F4Fʀᴇᴅsᴛᴏɴᴇ ʙʟᴏᴄᴋs ⚡"
+                lore:
+                    - "&8| &7Power your machines with redstone"
+                    - "&8| &7Create complex contraptions and circuits"
+            page: 5
+            slot: 2
+        10039:
+            type: dummy
+            item:
+                material: DIAMOND_PICKAXE
+                quantity: 1
+                name: "#76D7EEᴛᴏᴏʟs & ᴜᴛɪʟɪᴛɪᴇs 🛠"
+                lore:
+                    - "&8| &7Essential tools for mining and crafting"
+                    - "&8| &7Upgrade your gear for better efficiency"
+            page: 5
+            slot: 3
+        10040:
+            type: dummy
+            item:
+                material: NETHERITE_SWORD
+                quantity: 1
+                name: "#9B59B6ᴄᴏᴍʙᴀᴛ 🪓"
+                lore:
+                    - "&8| &7Gear up for intense battles"
+                    - "&8| &7Fight with powerful weapons"
+                enchantments:
+                    - MENDING:1
+            page: 5
+            slot: 4
+        10041:
+            type: dummy
+            item:
+                material: GOLDEN_APPLE
+                quantity: 1
+                name: "#FF6F61ғᴏᴏᴅ & ᴅʀɪɴᴋs 🍏"
+                lore:
+                    - "&8| &7Restore your health and hunger"
+                    - "&8| &7Enjoy delicious treats"
+            page: 5
+            slot: 5
+        10042:
+            type: dummy
+            item:
+                material: IRON_INGOT
+                quantity: 1
+                name: "#6A5ACDɪɴɢʀᴇᴅɪᴇɴᴛs 🍴"
+                lore:
+                    - "&8| &7Raw materials for crafting"
+                    - "&8| &7Essential for making tools and items"
+            page: 5
+            slot: 6
+        10043:
+            type: dummy
+            item:
+                material: SPAWNER
+                quantity: 1
+                name: "#A7F436sᴘᴀᴡɴᴇʀ 🐕"
+                lore:
+                    - "&8| &7Spawn and control mobs"
+                    - "&8| &7Ideal for farming and combat"
+            page: 5
+            slot: 7
+        10044:
+            type: shop_link
+            link:
+                shop: "food-drinks"
+            item:
+                material: GHAST_TEAR
+                quantity: 1
+                name: "#7EC674▶ &7Next"
+            page: 5
+            slot: 8

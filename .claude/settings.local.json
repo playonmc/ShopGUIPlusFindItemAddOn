@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(./gradlew:*)",
+      "WebFetch(domain:javadoc.brcdev.net)"
+    ],
+    "deny": []
+  }
+}
